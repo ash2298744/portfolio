@@ -8,6 +8,11 @@ import Node from '../assets/node.png';
 import Mongo from '../assets/mongo.png';
 import Django from '../assets/django.png';
 import Python from '../assets/python.png';
+import RestAPi from '../assets/restapi.png';
+import cplus from '../assets/c++.png';
+import sql from '../assets/postgresql.png';
+import git from '../assets/git.png';
+
 
 const Skills = () => {
   return (
@@ -49,6 +54,22 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#143447] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Python} alt="Python" />
                     <p className='my-4'>Python</p>
+                </div>
+                <div className='shadow-md shadow-[#143447] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={RestAPi} alt="Python" />
+                    <p className='my-4'>REST API</p>
+                </div>
+                <div className='shadow-md shadow-[#143447] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={cplus} alt="Python" />
+                    <p className='my-4'>C++</p>
+                </div>
+                <div className='shadow-md shadow-[#143447] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={sql} alt="Python" />
+                    <p className='my-4'>PostgreSQL</p>
+                </div>
+                <div className='shadow-md shadow-[#143447] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={git} alt="Python" />
+                    <p className='my-4'>Git/Github</p>
                 </div>
             </div>
         </div>
