@@ -2,6 +2,7 @@ import React from 'react'
 import whispr from '../assets/whispr.PNG'
 import tictac from '../assets/tictac.PNG'
 import keebook from '../assets/keebook.png'
+import youtube from '../assets/yt.PNG'
 
 const Work = () => {
   return (
@@ -13,6 +14,21 @@ const Work = () => {
             </div>
 
             <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div style={{backgroundImage:`url(${youtube})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-80'>
+                        <span className='text-2xl font-bold text-white tracking-wide'>
+                            React.Js Application
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://ytclone-ash2298744.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/ash2298744/ytclone">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div style={{backgroundImage:`url(${whispr})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-80'>
                         <span className='text-2xl font-bold text-white tracking-wide'>
